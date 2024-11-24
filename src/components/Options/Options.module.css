@@ -1,0 +1,19 @@
+.optionsContainer{
+    display: flex;
+    gap: 8px;
+}
+.btn{
+    padding: 12px 24px;
+    border-radius: 24px;
+    border: none;
+    background-color: teal;
+    outline: none;
+    transition: 0.2s ease-in-out;
+}
+.btn:hover{
+    scale: 1.1;
+}
+.btn:active{
+    box-shadow: none;
+    scale: 1;
+}
